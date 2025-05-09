@@ -1,0 +1,3 @@
+language = Objective-C
+package = io.github.native.kfirebase.auth
+headers = /Users/michelleraouf/Desktop/kmm/KFirebaseAuth/kfirebaseAuth/interop/src/KFirebaseAuthInterop-Swift.h
