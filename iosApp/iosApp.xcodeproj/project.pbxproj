@@ -392,7 +392,7 @@
 			repositoryURL = "https://github.com/the-best-is-best/KFirebaseAuthInterop";
 			requirement = {
 				kind = exactVersion;
-				version = "0.1.0-dev.7";
+				version = 0.1.0;
 			};
 		};
 		41A229482DCD541500134EAF /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {

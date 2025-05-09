@@ -8,8 +8,6 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         FirebaseApp.configure()
-        GIDSignIn.sharedInstance.signOut()
-
         // Optional: Disable app verification for testing (remove in production)
         Auth.auth().settings?.isAppVerificationDisabledForTesting = true
         UNUserNotificationCenter.current().delegate = self as? UNUserNotificationCenterDelegate
