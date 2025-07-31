@@ -1,4 +1,3 @@
-import com.vanniktech.maven.publish.SonatypeHost
 import org.gradle.nativeplatform.platform.internal.DefaultNativePlatform.getCurrentOperatingSystem
 
 plugins {
@@ -56,7 +55,7 @@ mavenPublishing {
         extra["version"].toString()
     )
 
-    publishToMavenCentral(SonatypeHost.S01, true)
+    publishToMavenCentral(true)
     signAllPublications()
 
     pom {

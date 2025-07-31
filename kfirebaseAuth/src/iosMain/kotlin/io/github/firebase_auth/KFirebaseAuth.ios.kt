@@ -17,19 +17,20 @@ import toModel
 import kotlin.coroutines.resume
 import kotlin.coroutines.suspendCoroutine
 
-enum class ActionCodeResultEnum(val rawValue: Int) {
-    SignInWithEmailLink(0),
-    VerifyEmail(1),
-    RecoverEmail(2),
-    RevertSecondFactorAddition(3),
-    VerifyBeforeChangeEmail(4);
-
-    companion object {
-        fun fromRawValue(value: Int): ActionCodeResultEnum? {
-            return entries.find { it.rawValue == value }
-        }
-    }
-}
+//
+//enum class ActionCodeResultEnum(val rawValue: Int) {
+//    SignInWithEmailLink(0),
+//    VerifyEmail(1),
+//    RecoverEmail(2),
+//    RevertSecondFactorAddition(3),
+//    VerifyBeforeChangeEmail(4);
+//
+//    companion object {
+//        fun fromRawValue(value: Int): ActionCodeResultEnum? {
+//            return entries.find { it.rawValue == value }
+//        }
+//    }
+//}
 
 
 @OptIn(ExperimentalForeignApi::class)
