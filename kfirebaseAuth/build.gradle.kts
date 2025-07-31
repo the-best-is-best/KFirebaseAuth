@@ -34,7 +34,7 @@ tasks.withType<PublishToMavenRepository> {
 extra["packageNameSpace"] = "io.github.firebase_auth"
 extra["groupId"] = "io.github.the-best-is-best"
 extra["artifactId"] = "kfirebase-auth"
-extra["version"] = "1.1.0"
+extra["version"] = "2.0.0"
 extra["packageName"] = "KFirebaseAuth"
 extra["packageUrl"] = "https://github.com/the-best-is-best/KFirebaseAuth"
 extra["packageDescription"] =
