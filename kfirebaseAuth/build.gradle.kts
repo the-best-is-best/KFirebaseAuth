@@ -34,7 +34,7 @@ tasks.withType<PublishToMavenRepository> {
 extra["packageNameSpace"] = "io.github.firebase_auth"
 extra["groupId"] = "io.github.the-best-is-best"
 extra["artifactId"] = "kfirebase-auth"
-extra["version"] = "2.0.0"
+extra["version"] = "2.1.0"
 extra["packageName"] = "KFirebaseAuth"
 extra["packageUrl"] = "https://github.com/the-best-is-best/KFirebaseAuth"
 extra["packageDescription"] =
@@ -100,7 +100,7 @@ kotlin {
 // See: https://kotlinlang.org/docs/multiplatform-discover-project.html#targets
     androidLibrary {
         namespace = "io.github.kfirebase_auth"
-        compileSdk = 35
+        compileSdk = 36
         minSdk = 23
     }
 
