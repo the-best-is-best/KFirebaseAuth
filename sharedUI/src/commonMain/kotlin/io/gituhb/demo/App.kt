@@ -18,6 +18,7 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import io.github.firebase_auth.AuthProvider
 import io.github.firebase_auth.KAuthCredentials
@@ -26,11 +27,10 @@ import io.github.firebase_auth.KFirebaseUser
 import io.github.sign_in_with_google.KGoogleSignIn
 import io.gituhb.demo.theme.AppTheme
 import kotlinx.coroutines.launch
-import org.jetbrains.compose.ui.tooling.preview.Preview
 
 @Preview
 @Composable
-internal fun App() = AppTheme {
+fun App() = AppTheme {
     val kFirebaseAuth = KFirebaseAuth()
     val scope = rememberCoroutineScope()
     var user by remember { mutableStateOf<KFirebaseUser?>(null) }
